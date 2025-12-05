@@ -1,42 +1,98 @@
-# 👋 Hi, I'm Z (aka Z Scraper)
+# 👋 Hi, I'm Z (a.k.a z-scraper)
 
-I build high-performance APIs for:
+I build high-performance APIs so you don’t have to scrape the web yourself.
 
-- 🪙 **Crypto news & sentiment analysis**
-- 👔 **LinkedIn data for lead gen & recruiting**
+_Currently focused on:_
 
-## 🚀 What I’m working on
-
-### 1. Crypto API
-
-- Aggregates crypto news from 6 major sources (Bitcoinist, CoinDesk, Cointelegraph, Crypto Daily, Crypto News, Decrypt)
-- AI-powered sentiment (positive / negative / neutral)
-- Edge network (Cloudflare Workers) with sub-100ms response times
-- Perfect for: trading bots, DeFi dashboards, research tools
-
-👉 Try it on RapidAPI: [Crypto API on RapidAPI](https://rapidapi.com/zscraper/api/z-crypto-news)
-
-### 2. LinkedIn API
-
-- Profiles, jobs, companies, posts, comments, reactions & more
-- Advanced people / job / company search with 20+ filters
-- Built on Cloudflare Workers with multi-account, anti-rate-limit setup
-- Perfect for: recruiters, lead-gen tools, market research
-
-👉 Try it on RapidAPI: [LinkedIn API on RapidAPI](https://z-scraper.com)
-
-## 📦 SDKs & Examples
-
-- [`crypto-api`](https://github.com/z-scraper/crypto-api) – JavaScript/TypeScript client + examples
-- [`linkedin-api-js`](LINKEDIN_REPO_URL) – LinkedIn data client + examples
-
-## 📈 What you can build
-
-- Crypto trading bots with news + sentiment
-- Dashboards for market & social sentiment
-- Lead-gen tools with LinkedIn job & company search
-- Recruiting tools with advanced people search
+- 🪙 **Crypto API** – crypto news aggregation + AI sentiment analysis
+- 👔 **LinkedIn API** – structured LinkedIn data for lead gen & recruiting tools
 
 ---
 
-If you’re building something with these APIs, open an issue or start a discussion – I’d love to help.
+## 🪙 Crypto API – Crypto news + AI sentiment
+
+A high-performance API built on Cloudflare Workers that aggregates crypto news from **6 major sources**:
+
+- Bitcoinist
+- CoinDesk
+- Cointelegraph
+- Crypto Daily
+- Crypto News
+- Decrypt
+
+### Core features
+
+- **Unified news feed** – single API to fetch the latest crypto news across all sources
+- **Detail endpoints** – get full article content, not just headlines
+- **AI sentiment analysis** – positive / negative / neutral labels for each article
+- **Multi-source aggregation** – premium tier merges all sources with duplicate detection
+- **Edge performance** – deployed on Cloudflare Workers for sub-100ms responses
+
+### Perfect for
+
+- Trading bots using **news + sentiment** as signals
+- Crypto dashboards & alerting systems
+- Research tools & data pipelines
+
+👉 **Try it on RapidAPI:** [Crypto API](https://rapidapi.com/zscraper/api/z-crypto-news)  
+👉 Subscribe, grab your API key, and plug it into the SDKs & examples below.
+
+---
+
+## 👔 LinkedIn API – Data for lead gen & recruiting
+
+A comprehensive API for LinkedIn data extraction, also built on Cloudflare Workers.
+
+### Core features
+
+- **Profiles** – basic info, contact, skills, education, experience, recommendations
+- **Activity** – posts, comments, images, videos, documents, reactions
+- **Companies** – company profiles, posts, jobs, employees
+- **Jobs** – job details, listings, filters for search
+- **Advanced search** – people, companies, jobs with 20+ filters (location, title, industry, etc.)
+
+### Perfect for
+
+- Lead gen tools (enrich leads with LinkedIn data)
+- Recruiting tools & ATS integrations
+- Market research & competitive intelligence dashboards
+
+👉 **Try it on RapidAPI:** _Coming soon – currently in active development._
+
+---
+
+## 📦 SDKs & Example Projects
+
+I’m building SDKs and example apps so you can plug these APIs into your stack in minutes.
+
+**Available:**
+
+- **[crypto-api](https://github.com/z-scraper/crypto-api)** – TypeScript SDK + examples (Node.js)
+  - npm: `@z-scraper/crypto-api` (TypeScript/JavaScript client for Crypto API)
+
+**Planned:**
+
+- Go SDK for Crypto API
+- SDKs & examples for the LinkedIn API
+
+---
+
+## 💡 What you can build with my APIs
+
+- Crypto trading bots using **news + AI sentiment**
+- Real-time dashboards tracking sentiment across crypto news sources
+- Lead gen tools combining **LinkedIn people + company + job** search
+- Recruiter tools to find candidates using advanced LinkedIn filters
+- Internal analytics tools for sales, recruiting, and market research
+
+If you’re building any of these, I’d love to see it.
+
+---
+
+## 🤝 How to reach me
+
+- Open an **Issue** in any repo if you need help with the APIs
+- Use **Discussions** to share what you’re building or request features
+- Star the repos if you find them useful – it helps a lot 💙
+
+Thanks for stopping by & happy building!
