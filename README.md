@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Z Scrapẻ
+# 👋 Hi, I'm Z Scraper
 
 I build high-performance APIs for:
 
