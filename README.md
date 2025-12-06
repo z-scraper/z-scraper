@@ -35,7 +35,7 @@ A high-performance API built on Cloudflare Workers that aggregates crypto news f
 - Research tools & data pipelines
 
 👉 **Try it on RapidAPI:** [Crypto API](https://rapidapi.com/zscraper/api/z-crypto-news)  
-👉 Subscribe, grab your API key, and plug it into the SDKs & examples below.
+👉 Subscribe, grab your API key, and plug it into the SDKs below.
 
 ---
 
@@ -65,15 +65,27 @@ A comprehensive API for LinkedIn data extraction, also built on Cloudflare Worke
 
 I’m building SDKs and example apps so you can plug these APIs into your stack in minutes.
 
-**Available:**
+### Available SDKs for Crypto API
 
-- **[crypto-api](https://github.com/z-scraper/crypto-api)** – TypeScript SDK + examples (Node.js)
-  - npm: `@z-scraper/crypto-api` (TypeScript/JavaScript client for Crypto API)
+- **TypeScript / JavaScript**
 
-**Planned:**
+  - Repo: **[crypto-api](https://github.com/z-scraper/crypto-api)**
+  - npm: `@z-scraper/crypto-api`
 
-- Go SDK for Crypto API
-- SDKs & examples for the LinkedIn API
+  ```bash
+  npm install @z-scraper/crypto-api
+  # or
+  yarn add @z-scraper/crypto-api
+  ```
+
+- **Go**
+
+  - Repo: **[cryptoapi-go](https://github.com/z-scraper/cryptoapi-go)**
+  - Module: `github.com/z-scraper/cryptoapi-go`
+
+  ```bash
+  go get github.com/z-scraper/cryptoapi-go
+  ```
 
 ---
 
