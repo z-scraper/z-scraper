@@ -57,7 +57,8 @@ A comprehensive API for LinkedIn data extraction, also built on Cloudflare Worke
 - Recruiting tools & ATS integrations
 - Market research & competitive intelligence dashboards
 
-👉 **Try it on RapidAPI:** _Coming soon – currently in active development._
+👉 **Try it on RapidAPI:** [Linkedin API](https://rapidapi.com/zscraper/api/z-linkedin)  
+👉 Subscribe, grab your API key, and plug it into the SDKs below.
 
 ---
 
