@@ -1,111 +1,79 @@
-# 👋 Hi, I'm Z (a.k.a z-scraper)
+# Z Scraper — Real-Time Data APIs
 
-I build high-performance APIs so you don’t have to scrape the web yourself.
+**High-performance APIs for LinkedIn, crypto, and more — so you don't build or maintain scrapers.**
 
-_Currently focused on:_
+One key. No cookies to manage. No proxies to rotate. No infrastructure to babysit.
 
-- 🪙 **Crypto API** – crypto news aggregation + AI sentiment analysis
-- 👔 **LinkedIn API** – structured LinkedIn data for lead gen & recruiting tools
-
----
-
-## 🪙 Crypto API – Crypto news + AI sentiment
-
-A high-performance API built on Cloudflare Workers that aggregates crypto news from **6 major sources**:
-
-- Bitcoinist
-- CoinDesk
-- Cointelegraph
-- Crypto Daily
-- Crypto News
-- Decrypt
-
-### Core features
-
-- **Unified news feed** – single API to fetch the latest crypto news across all sources
-- **Detail endpoints** – get full article content, not just headlines
-- **AI sentiment analysis** – positive / negative / neutral labels for each article
-- **Multi-source aggregation** – premium tier merges all sources with duplicate detection
-- **Edge performance** – deployed on Cloudflare Workers for sub-100ms responses
-
-### Perfect for
-
-- Trading bots using **news + sentiment** as signals
-- Crypto dashboards & alerting systems
-- Research tools & data pipelines
-
-👉 **Try it on RapidAPI:** [Crypto API](https://rapidapi.com/zscraper/api/z-crypto-news)  
-👉 Subscribe, grab your API key, and plug it into the SDKs below.
+👉 **[Get started on RapidAPI](https://rapidapi.com/zscraper/api/z-linkedin) — free tier available**
 
 ---
 
-## 👔 LinkedIn API – Data for lead gen & recruiting
+## Why Z Scraper
 
-A comprehensive API for LinkedIn data extraction, also built on Cloudflare Workers.
+Scraping LinkedIn and other platforms is fragile — it breaks when sites change, needs cookies, proxies, and constant maintenance. **Z Scraper handles all of that for you** so you get clean, structured data with a simple API call.
 
-### Core features
-
-- **Profiles** – basic info, contact, skills, education, experience, recommendations
-- **Activity** – posts, comments, images, videos, documents, reactions
-- **Companies** – company profiles, posts, jobs, employees
-- **Jobs** – job details, listings, filters for search
-- **Advanced search** – people, companies, jobs with 20+ filters (location, title, industry, etc.)
-
-### Perfect for
-
-- Lead gen tools (enrich leads with LinkedIn data)
-- Recruiting tools & ATS integrations
-- Market research & competitive intelligence dashboards
-
-👉 **Try it on RapidAPI:** [Linkedin API](https://rapidapi.com/zscraper/api/z-linkedin)  
-👉 Subscribe, grab your API key, and plug it into the SDKs below.
+- **Real-time data** — fresh, structured responses on every call
+- **No infrastructure** — no cookies, proxies, or anti-bot bypass to manage
+- **Simple, predictable billing** — one request per call, clear monthly plans
+- **Ship in minutes** — subscribe, grab your key, call any endpoint
 
 ---
 
-## 📦 SDKs & Example Projects
+## 👔 LinkedIn Data API — the flagship
 
-I’m building SDKs and example apps so you can plug these APIs into your stack in minutes.
+The most comprehensive LinkedIn data API — **68 endpoints** covering profiles, companies, jobs, posts, groups, and ad library.
 
-### Available SDKs for Crypto API
+### What you can build
 
-- **TypeScript / JavaScript**
+- **Lead-gen tools** — enrich prospects with profiles, contact info, and skills before outreach
+- **Recruiting & ATS** — source candidates by experience, skills, and hiring signals
+- **Sales intelligence** — track companies, jobs, and decision-makers
+- **Market research** — monitor competitors, engagement, and ad strategies
 
-  - Repo: **[crypto-api](https://github.com/z-scraper/crypto-api)**
-  - npm: `@z-scraper/crypto-api`
+### Endpoint coverage
 
-  ```bash
-  npm install @z-scraper/crypto-api
-  # or
-  yarn add @z-scraper/crypto-api
-  ```
+| Domain | Endpoints | What you get |
+|--------|-----------|-------------|
+| Profiles & enrichment | 18 | Full profiles, contact, experience, skills, education, projects |
+| Profile activity | 12 | Posts, comments, reactions, images, videos, recommendations |
+| Companies & jobs | 7 | Company profiles, posts, jobs, employees |
+| Posts & content | 9 | Post search, details, comments, reactions, reposts |
+| Search | 7 | People, companies, products, services, courses, events |
+| Metadata filters | 13 | Location, industry, job function, skill, degree |
+| Ad library | 2 | Ad campaigns and creatives |
 
-- **Go**
+> **Need a Proxycurl replacement?** Proxycurl shut down in 2025. This API covers the same LinkedIn data breadth with one key and a consistent integration model.
 
-  - Repo: **[cryptoapi-go](https://github.com/z-scraper/cryptoapi-go)**
-  - Module: `github.com/z-scraper/cryptoapi-go`
-
-  ```bash
-  go get github.com/z-scraper/cryptoapi-go
-  ```
-
----
-
-## 💡 What you can build with my APIs
-
-- Crypto trading bots using **news + AI sentiment**
-- Real-time dashboards tracking sentiment across crypto news sources
-- Lead gen tools combining **LinkedIn people + company + job** search
-- Recruiter tools to find candidates using advanced LinkedIn filters
-- Internal analytics tools for sales, recruiting, and market research
-
-If you’re building any of these, I’d love to see it.
+👉 **Try the LinkedIn API on RapidAPI** — [z-linkedin](https://rapidapi.com/zscraper/api/z-linkedin)
 
 ---
 
-## 🤝 How to reach me
+## 🪙 Crypto API — news + AI sentiment
 
-- Open an **Issue** in any repo if you need help with the APIs
-- Use **Discussions** to share what you’re building or request features
-- Star the repos if you find them useful – it helps a lot 💙
+A high-performance API on Cloudflare Workers that aggregates crypto news from **6 major sources** with AI sentiment analysis.
+
+- **Unified feed** — fetch crypto news across all sources in one call
+- **AI sentiment** — positive / negative / neutral labels per article
+- **Edge performance** — sub-100ms responses
+
+👉 **Try the Crypto API on RapidAPI** — [Crypto API](https://rapidapi.com/zscraper/api/z-crypto-news)
+
+---
+
+## 📦 SDKs & example projects
+
+**Crypto API:**
+- TypeScript: [`crypto-api`](https://github.com/z-scraper/crypto-api) · `npm install @z-scraper/crypto-api`
+- Go: [`cryptoapi-go`](https://github.com/z-scraper/cryptoapi-go) · `go get github.com/z-scraper/cryptoapi-go`
+
+**LinkedIn SDKs** — coming soon.
+
+---
+
+## 🤝 Get involved
+
+- Need help? **Open an issue** in any repo.
+- Built something? **Start a Discussion** — I'd love to see it.
+- Find this useful? **Star the repos** — it helps 💙
 
 Thanks for stopping by & happy building!
