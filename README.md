@@ -1,6 +1,6 @@
-# Z Scraper — Real-Time Data APIs
+# Z Scraper — Real-Time Social Data APIs
 
-**High-performance APIs for LinkedIn, crypto, and more — so you don't build or maintain scrapers.**
+**High-performance APIs for LinkedIn and more — so you don't build or maintain scrapers.**
 
 One key. No cookies to manage. No proxies to rotate. No infrastructure to babysit.
 
@@ -10,7 +10,7 @@ One key. No cookies to manage. No proxies to rotate. No infrastructure to babysi
 
 ## Why Z Scraper
 
-Scraping LinkedIn and other platforms is fragile — it breaks when sites change, needs cookies, proxies, and constant maintenance. **Z Scraper handles all of that for you** so you get clean, structured data with a simple API call.
+Scraping social platforms is fragile — it breaks when sites change, needs cookies, proxies, and constant maintenance. **Z Scraper handles all of that for you** so you get clean, structured data with a simple API call.
 
 - **Real-time data** — fresh, structured responses on every call
 - **No infrastructure** — no cookies, proxies, or anti-bot bypass to manage
@@ -19,7 +19,7 @@ Scraping LinkedIn and other platforms is fragile — it breaks when sites change
 
 ---
 
-## 👔 LinkedIn Data API — the flagship
+## 👔 LinkedIn Data API
 
 The most comprehensive LinkedIn data API — **68 endpoints** covering profiles, companies, jobs, posts, groups, and ad library.
 
@@ -42,37 +42,22 @@ The most comprehensive LinkedIn data API — **68 endpoints** covering profiles,
 | Metadata filters | 13 | Location, industry, job function, skill, degree |
 | Ad library | 2 | Ad campaigns and creatives |
 
-> **Need a Proxycurl replacement?** Proxycurl shut down in 2025. This API covers the same LinkedIn data breadth with one key and a consistent integration model.
+> **Looking for a Proxycurl replacement?** Proxycurl shut down in 2025. This API covers the same LinkedIn data breadth with one key and a consistent integration model.
 
-👉 **Try the LinkedIn API on RapidAPI** — [z-linkedin](https://rapidapi.com/zscraper/api/z-linkedin)
-
----
-
-## 🪙 Crypto API — news + AI sentiment
-
-A high-performance API on Cloudflare Workers that aggregates crypto news from **6 major sources** with AI sentiment analysis.
-
-- **Unified feed** — fetch crypto news across all sources in one call
-- **AI sentiment** — positive / negative / neutral labels per article
-- **Edge performance** — sub-100ms responses
-
-👉 **Try the Crypto API on RapidAPI** — [Crypto API](https://rapidapi.com/zscraper/api/z-crypto-news)
+👉 **Try the LinkedIn API on RapidAPI** — [z-linkedin](https://rapidapi.com/zscraper/api/z-linkedin)  
+📖 **Read the docs** — [linkedin-api-docs](https://github.com/z-scraper/linkedin-api-docs)
 
 ---
 
-## 📦 SDKs & example projects
+## 🌍 More platforms coming
 
-**Crypto API:**
-- TypeScript: [`crypto-api`](https://github.com/z-scraper/crypto-api) · `npm install @z-scraper/crypto-api`
-- Go: [`cryptoapi-go`](https://github.com/z-scraper/cryptoapi-go) · `go get github.com/z-scraper/cryptoapi-go`
-
-**LinkedIn SDKs** — coming soon.
+Z Scraper is platform-agnostic. Instagram, TikTok, and X data APIs are in development — same architecture, same simple billing.
 
 ---
 
 ## 🤝 Get involved
 
-- Need help? **Open an issue** in any repo.
+- Need help? **Open an issue** in the relevant repo.
 - Built something? **Start a Discussion** — I'd love to see it.
 - Find this useful? **Star the repos** — it helps 💙
 
