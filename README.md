@@ -4,7 +4,7 @@
 
 One key. No cookies to manage. No proxies to rotate. No infrastructure to babysit.
 
-👉 **[Get started on RapidAPI](https://rapidapi.com/zscraper/api/z-linkedin) — free tier available**
+👉 **[Get started on RapidAPI](https://rapidapi.com/zscraper/api/linkedin-data-api8) — free tier available**
 
 ---
 
@@ -44,7 +44,7 @@ The most comprehensive LinkedIn data API — **68 endpoints** covering profiles,
 
 > **Looking for a Proxycurl replacement?** Proxycurl shut down in 2025. This API covers the same LinkedIn data breadth with one key and a consistent integration model.
 
-👉 **Try the LinkedIn API on RapidAPI** — [z-linkedin](https://rapidapi.com/zscraper/api/z-linkedin)  
+👉 **Try the LinkedIn API on RapidAPI** — [linkedin-data-api8](https://rapidapi.com/zscraper/api/linkedin-data-api8)  
 📖 **Read the docs** — [linkedin-api-docs](https://github.com/z-scraper/linkedin-api-docs)
 
 ---
